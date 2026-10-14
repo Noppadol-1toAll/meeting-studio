@@ -1,0 +1,9 @@
+name = "meeting-studio-api"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Replace with your exact Pages origin (no repository path, no trailing slash).
+ALLOWED_ORIGINS = "https://YOUR-USERNAME.github.io"
+# Choose a model enabled for your account that supports audio if needed.
+GEMINI_MODEL = "gemini-2.5-flash"
